@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naja's Website</title>
+    <meta name:"description" content="Personal Profile Page of Naja">
+    <link rel="icon" href="E:\pantech\asset\img\icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="asset\css\style.css">
+    <script src="https://kit.fontawesome.com/67fc048b98.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    
+    <div id="header" style="background-image: url(asset/img/background.jpeg);">
+        <div class="Container">
+           <nav>
+            <img src="asset\img\najalogo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+            <h1> Hello! It's Me <br><span>Naja Mohamed</span>, <br>and I'm a <span class="text"></span></h1>
+            <p>I am passionate Web Develper with a love for creating stunning and functional websites.</p>
+           </div>
+            
+        </div>
+    </div>
+<!-- .........about.........../ -->
+    <div id="about">
+        <div class="Container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="E:\pantech\asset\img\Me1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>"Hello! I'm Naja Mohamed, an enthusiastic individual with an HND in Software Engineering, eager to gain practical experience in the software development field through an internship.
+                         My academic background has provided me with a solid foundation in programming and problem-solving.
+                          While I have no formal industry experience, my academic projects and passion for continuous learning reflect my dedication to the field.
+                           I am excited to contribute my skills and grow as a professional in a dynamic and collaborative environment.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024(Feb)-(Dec)</span><br>Coputer Operator at Nolimit SriLanka</li>
+                                <li><span>2024(Feb)-(Dec)</span><br>Coputer Operator at Nolimit SriLanka</li>
+                                <li><span>2024(Feb)-(Dec)</span><br>Coputer Operator at Nolimit SriLanka</li> 
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>HND in Software Engineering at Esoft Metro Campus</li>
+                                <li><span>2021</span><br>Advance Level</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- .....services........../ -->
+    <div id="services">
+        <div class="Container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>" I design responsive, modern websites that look great on any device. My focus is on creating visually appealing layouts with smooth navigation, ensuring your online presence is not only aesthetically pleasing but also easy to navigate and user-friendly."</p>
+                                  <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>"I specialize in creating intuitive user interfaces (UI) and seamless user experiences (UX) that prioritize ease of use and user satisfaction. By conducting thorough research, prototyping, and testing, I ensure your website or application is both functional and enjoyable, enhancing engagement and conversion rates."</p>
+                                  <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>" I also design mobile and desktop applications with a focus on usability and interactivity. From wireframes to final designs, I ensure the app interface is user-friendly, visually appealing, and optimized for seamless performance. Whether for Android, iOS, or cross-platform, I tailor designs to enhance usability and create memorable experiences for users"</p>
+                                  <a href="#">Learn more</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+<!-- ............portfolio........... -->
+        <div id="portfolio">
+            <div class="Container">
+                <h1 class="sub-title"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="asset/img/work1.jpg"  height="300">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>the app connects you talented people around the world.
+                                Download it from Play store
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="asset/img/work2.png"  height="300">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>the app connects you talented people around the world.
+                                Download it from Play store
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="asset/img/work3.jpg"  height="300">
+                        <div class="layer">
+                            <h3>E Commerce Website</h3>
+                            <p>the app connects you talented people around the world.
+                                Download it from Play store
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+<!-- .......contact........./ -->
+        <div id="contact">
+            <div class="Container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><a href="mailto:najamohamed2002@gmail.com"><i class="fa-sharp fa-solid fa-paper-plane"></i> najamohamed2002@gmail.com </a></p>
+                        <p><a href="tel:+94 7882771704"><i class="fa-duotone fa-solid fa-phone"></i> 0782771704 </a></p>
+                        <div class="social-icons">
+                            <a href="https://web.facebook.com/najamohamed2002"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/najamohamed2002"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/najamohamed"><i class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                        <a href="asset/img/Naja CV.pdf" download="Naja CV.pdf" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            
+                            <input type="text" name="Name" placeholder="Your Name" required>
+            
+                            <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                
+                            
+                            <textarea rows="6" name="Message" placeholder="Your Message"></textarea>
+                
+                            <button type="submit" class="btn btn2">Send Message</button>
+                
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- .........footer......../ -->
+        <footer>
+            <p>Copyright &copy; 2025 Naja. Built by <i class="fa-sharp fa-solid fa-heart"></i> NAJA MOHAMED</p>
+        </footer>
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+   </script>
+   <script>
+    var sidemenu=document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwHW53dka-kvEnAONDdWTsi37DyhtdjXQRuj6vwWv9Zq-KjPc4YTRDr7CBEVUj0Zdge/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var typed = new Typed(".text", {
+        strings: ["Frontend Developer", "Web Developer","App Developer"],
+        typeSpeed: 90,
+        backSpeed: 90,
+        backDelay: 1000,
+        loop: true
+      });
+    });
+  </script>
+  
+</body>
+</html> 
